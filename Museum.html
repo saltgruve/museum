@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Museum</title>
+  <link rel="stylesheet" href="Museum.css" />
+</head>
+<body>
+  <div id="icons">
+    <img src="aapningstider.jpg" class="iconBilder" alt="0"/>
+    <img src="priser.jpg" class="iconBilder" alt="1"/>
+    <img src="informasjon.jpg" class="iconBilder" alt="2"/>
+    <br />
+  <center> <p id="teksterBoks">
+
+      </p>    </center>
+  </div>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="intro1.jpg" class="slideBilder">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="intro2.jpg" class="slideBilder">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="intro3.jpg" class="slideBilder">
+      <div class="text">Caption Three</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="intro4.jpg" class="slideBilder">
+      <div class="text">Caption Four</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <script src="Museum.js" type="text/javascript"></script>
+</body>
+</html>
